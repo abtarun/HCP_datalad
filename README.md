@@ -19,6 +19,7 @@ This repository also includes the scripts used in preprocessing the fMRI data, a
 
   * Diffusion MRI
     * Diffusion MRI data were downloaded in their minimally preprocessed format. I used the connectome mapper to obtain the structural connectivity matrices using the Lausanne parcellation (5 scales). Diffusion parameters are as follows: I used single shell (b=3000) multi-tissue to estimate the response function, while fiber orientation distribution functions were computed using constrained spherical deconvolution of order 8. Tractogram generation was performed using deterministic tractography with about 2 Million output streamlines, and was seeded from the white matter. 
+    * The reference codes used in the cmp runs can be found [here](https://github.com/abtarun/HCP_datalad/blob/main/diffusion).
     
   * Functional MRI
     * Functional data were downloaded in their minimally preprocessed format (gradient distortion correction, motion correction (realignment), registration to MNI standard space, and intensity normalization (see Glasser et al., 2013)). I successively performed motion and  nuissance regression (motion parameters + derivatives, CSF and WM means, see associated code provided, [`Regression-fMRI.py`](https://github.com/abtarun/HCP_datalad/blob/main/Regression-fMRI.py).
