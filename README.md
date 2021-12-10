@@ -12,5 +12,9 @@ A detailed description of the dataset and its subdatasets are available on [HCP_
 
 ## Preprocessing 
 
-This repository also includes the descriptions on the preprocessing steps done on the data.
+This repository also includes the scripts used in preprocessing the fMRI data, as well as the code used in running the conectome mapper to obtain the SC matrices.
+
+## How to access the data using datalad?
+
+The HCP data is in datalad format, and can be downloaded and installed using datalad. The tutorial on how to access the data using datalad can be found here.
 
