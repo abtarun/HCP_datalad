@@ -1,0 +1,50 @@
+{
+    "Global": {
+        "process_type": "anatomical",
+        "subjects": [
+            "sub-100206",
+            "sub-100307",
+            "sub-100408",
+            "sub-100610",
+            "sub-101006",
+            "sub-101107",
+            "sub-101309",
+            "sub-101410",
+            "sub-101915",
+            "sub-102008",
+            "sub-102109",
+            "sub-102311",
+            "sub-102513",
+            "sub-102614"
+        ],
+        "subject": "sub-01",
+        "version": "v3.0.0-RC4"
+    },
+    "segmentation_stage": {
+        "seg_tool": "Freesurfer",
+        "make_isotropic": false,
+        "isotropic_vox_size": 1.2,
+        "isotropic_interpolation": "cubic",
+        "brain_mask_extraction_tool": "Freesurfer",
+        "use_fsl_brain_mask": false,
+        "use_existing_freesurfer_data": false,
+        "freesurfer_subjects_dir": "/data/hagmann_group/HCP/HCP_DWI_datalad/derivatives/freesurfer",
+        "freesurfer_subject_id": "/data/hagmann_group/HCP/HCP_DWI_datalad/derivatives/freesurfer/sub-100307_",
+        "number_of_threads": 1
+    },
+    "parcellation_stage": {
+        "pipeline_mode": "Diffusion",
+        "parcellation_scheme": "Lausanne2018",
+        "include_thalamic_nuclei_parcellation": true,
+        "ants_precision_type": "double",
+        "segment_hippocampal_subfields": true,
+        "segment_brainstem": true,
+        "pre_custom": "Lausanne2008",
+        "atlas_info": {},
+        "template_thalamus": "app/connectomemapper3/cmtklib/data/segmentation/thalamus2018/mni_icbm152_t1_tal_nlin_sym_09b_hires_1.nii.gz",
+        "thalamic_nuclei_maps": "app/connectomemapper3/cmtklib/data/segmentation/thalamus2018/Thalamus_Nuclei-HCP-4DSPAMs.nii.gz"
+    },
+    "Multi-processing": {
+        "number_of_cores": 1
+    }
+}
