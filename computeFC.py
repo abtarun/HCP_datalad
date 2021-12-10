@@ -1,4 +1,13 @@
-# This script computes the FC of fMRI data using an atlas parcellation as input
+# This script computes the region-wise average of a nifti file and for 4D nifti volumes, it also computes the functional connectivity between regions. The script is especially adapted to take HCP fMRI data, but can also be modified to be used in any type of data.
+
+# Input : atlas to use (e.g., Lausanne parcellation), and nifti volume
+
+# Output: vector (3D nifti) or data matrix (if nifti volume is 4D).
+
+# Usage : python computeFC.py $path-to-parcellation-nifti-files $path-to-functional-volume $subject-ID $sessionID-to-run $directory-where-to-save-outputs 
+# 
+# Author: Anjali Tarun
+
 
 from nilearn.connectome import ConnectivityMeasure
 from nilearn.input_data import NiftiLabelsMasker

@@ -1,3 +1,16 @@
+# This script performs nuissance regression for task fMRI data. We only include motion as confounds.
+
+# Input :  functional nifti volume, motion parameters
+
+# Output: nuissance regressed 4D nifti volume
+
+# Usage : python Regression-fMRI.py $subject-ID $task-id (e.g., 'WM') $task-id2 (e.g., 'wm') $sessionID (e.g., 'ses-02'), $acquisition (e.g., 'RL') $directory-where-to-save-outputs 
+# Note: make sure to change the functional directory shown below: '/home/localadmin/Documents/tmp_folder/HCP_fMRI_datalad/
+# This script is particularly adapted to suit the author's bash scripts.
+
+# Author: Anjali Tarun
+
+
 import os
 from nilearn import image as nimg
 from nilearn import plotting as nplot

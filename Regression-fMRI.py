@@ -1,3 +1,18 @@
+# This script performs nuissance regression for resting-state fMRI data. We include motion, white matter, and CSF as confounds/nuissance regressors.
+
+# Input :  functional nifti volume, motion parameters, and additional confounds to be regressed out (e.g., white matter, and CSF)
+
+# Output: nuissance regressed 4D nifti volume
+
+# Usage : python Regression-fMRI.py $subject-ID $task-id (e.g., 'REST1') $task-id2 (e.g., 'rest1') $sessionID (e.g., 'ses-02'), $acquisition (e.g., 'RL') $directory-where-to-save-outputs 
+# Note: make sure to change the functional directory shown below: '/home/localadmin/Documents/tmp_folder/HCP_fMRI_datalad/
+# This script is particularly adapted to suit the author's bash scripts.
+
+
+# Author: Anjali Tarun
+
+
+
 import os
 from nilearn import image as nimg
 from nilearn import plotting as nplot

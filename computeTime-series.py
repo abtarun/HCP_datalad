@@ -1,4 +1,12 @@
-# This script takes the morphometric values from the data using an atlas parcellation as input
+# This script computes the region-wise average of a nifti file. This script is particularly used in morphometric data.
+
+# Input : atlas to use (e.g., Lausanne parcellation), and nifti volume
+
+# Output: vector (3D nifti) or data matrix (if nifti volume is 4D).
+
+# Usage : python computeTime-series.py $path-to-parcellation-nifti-files $path-to-functional-volume $subject-ID $directory-where-to-save-outputs $morphometric (e.g., 'area')
+# 
+# Author: Anjali Tarun
 
 from nilearn.connectome import ConnectivityMeasure
 from nilearn.input_data import NiftiLabelsMasker
