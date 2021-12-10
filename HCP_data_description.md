@@ -48,7 +48,7 @@ Date Created: December 9, 2021
         ```console
         HCP_DWI_datalad > derivatives > morphometry > sub-$Id > sub-$Id_curv_atlas-L2018_res-scale1_dseg.mat
         ```
-        
+        The code to produce the .mat/.npz files can be found on  [computeMorphometry.py](https://github.com/abtarun/HCP_datalad/blob/main/computeMorphometry.py).
 
 ## Functional data
 * Under the `HCP_fMRI_datalad`, you will find two runs of resting-state : `rest1`, `rest2`, and 7 different tasks: `emotion`, `gambling`, `language`, `motor`, `social`, `relational`, and `working memory`. These are subdatasets of the superdataset `HCP_fMRI_datalad`, and thus can be downloaded and installed alone. Under these sub-datasets are the different subjects (e.g., `sub-100307`).
@@ -85,7 +85,7 @@ Date Created: December 9, 2021
     ```
 
     * `measures`: this contains the time-series and functional connectivity values of each subject, parcellated according the Lausanne 2018 atlas of 5 different scales.
-    Under this folder, you will find the final .mat/.npz files that can be readily loaded when you perform the analyses. The code for averageing the signals according to the chosen atlas parcellation can be found [here](https://github.com/abtarun/HCP_datalad/blob/main/computeFC.py).
+    Under this folder, you will find the final .mat/.npz files that can be readily loaded when you perform the analyses. The code for averaging the signals according to the chosen atlas parcellation is on [computeFC.py](https://github.com/abtarun/HCP_datalad/blob/main/computeFC.py).
     
         ```console
         HCP_fMRI_datalad > rest1 > derivatives > measures > ses-01 > sub-$Id_ses-01_atlas-L2018_res-scale1_space-MNI_dseg.mat, sub-$Id_ses-01_atlas-L2018_res-scale1_space-MNI_dseg.npz
