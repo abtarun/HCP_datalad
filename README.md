@@ -7,8 +7,11 @@ This repository describes the HCP datalad dataset available on UNIL servers (`/a
 
 ## Data format
 
-A detailed description of the dataset and its subdatasets are available on [HCP_data_description.md](https://github.com/abtarun/HCP_datalad/blob/main/HCP_data_description.md)
+A detailed description of the dataset and its subdatasets are available on [HCP_data_description.md](https://github.com/abtarun/HCP_datalad/blob/main/HCP_data_description.md).
 
+## Subject IDs used
+
+The subject IDs used are those that have complete imaging files (functional, anatomical, and diffusion data). The list of subjects used can be found in the following file: [subject_IDs_good.txt](https://github.com/abtarun/HCP_datalad/blob/main/subject_IDs_good.txt).
 
 ## Preprocessing 
 
