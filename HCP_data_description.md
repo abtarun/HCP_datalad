@@ -85,7 +85,8 @@ Date Created: December 9, 2021
     ```
 
     * `measures`: this contains the time-series and functional connectivity values of each subject, parcellated according the Lausanne 2018 atlas of 5 different scales.
-
+    Under this folder, you will find the final .mat/.npz files that can be readily loaded when you perform the analyses. The code for averageing the signals according to the chosen atlas parcellation can be found [https://github.com/abtarun/HCP_datalad/blob/main/computeFC.py](here).
+    
         ```console
         HCP_fMRI_datalad > rest1 > derivatives > measures > ses-01 > sub-$Id_ses-01_atlas-L2018_res-scale1_space-MNI_dseg.mat, sub-$Id_ses-01_atlas-L2018_res-scale1_space-MNI_dseg.npz
         ```
