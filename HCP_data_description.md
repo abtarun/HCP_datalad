@@ -77,7 +77,7 @@ Date Created: December 9, 2021
     ```
     * Note that each subjects in the `derivatives` folders are not nested.
 
-    * `HCP_preproc`: the final preprocessed fMRI volumes that underwent standard preprocessing steps. Since the data downloaded from the HCP is already the minimally preprocessed version (gradient distortion correction, motion correction (realignment), registration to MNI standard space, and intensity normalization (Glasser et al., 2013)). We successively performed motion and  nuissance regression (motion parameters + derivatives, CSF and WM means, see associated code provided, [https://github.com/abtarun/HCP_datalad/blob/main/Regression-fMRI.py] (`Regression-fMRI.py`)).
+    * `HCP_preproc`: the final preprocessed fMRI volumes that underwent standard preprocessing steps. Since the data downloaded from the HCP is already the minimally preprocessed version (gradient distortion correction, motion correction (realignment), registration to MNI standard space, and intensity normalization (Glasser et al., 2013)). We successively performed motion and  nuissance regression (motion parameters + derivatives, CSF and WM means, see associated code provided, [`Regression-fMRI.py`](https://github.com/abtarun/HCP_datalad/blob/main/Regression-fMRI.py).
 
     * The final preprocessed fMRI volumes are in the following path:
     ```console
