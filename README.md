@@ -7,7 +7,7 @@ This repository describes the HCP datalad dataset available on UNIL servers (`/a
 
 ## Data format
 
-A detailed description of the dataset and its subdatasets are available in this folder.
+A detailed description of the dataset and its subdatasets are available on [HCP_data_description.md](https://github.com/abtarun/HCP_datalad/blob/main/HCP_data_description.md)
 
 
 ## Preprocessing 
