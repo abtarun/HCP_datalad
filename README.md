@@ -11,7 +11,7 @@ A detailed description of the dataset and its subdatasets are available on [HCP_
 
 ## Subject IDs used
 
-The subject IDs used are those that have complete imaging files (functional, anatomical, and diffusion data). The list of subjects used can be found in the following file: [subject_IDs_good.txt](https://github.com/abtarun/HCP_datalad/blob/main/subject_IDs_good.txt).
+The subject IDs used are those that have complete imaging files (functional, anatomical, and diffusion data). The list of subjects used can be found in the following file: [subject_IDs_good.txt](https://github.com/abtarun/HCP_datalad/blob/main/subject_IDs_good.txt). Alternatively, one can opt to use only the 100 unrelated subjects available in the following file: [subjects_IDs_unrelated100.txt](https://github.com/abtarun/HCP_datalad/blob/main/subjects_IDs_unrelated100.txt)
 
 ## Preprocessing 
 
