@@ -1,0 +1,20 @@
+name: bids-datalad
+
+channels:
+        - aramislab
+        - anaconda
+        - conda-forge
+        - conda-forge/label/cf201901
+        - defaults
+
+dependencies:
+        - python=3.7
+        - pip=20.1.1
+        - git-annex=8.20210127
+
+        - pip:
+                - datalad[full]==0.14.0
+                - datalad-container==1.1.2
+                - datalad-neuroimaging==0.3.1                     
+                - datalad-osf==0.2.3.1
+                - pybids==0.10.2
