@@ -27,5 +27,5 @@ This repository also includes the scripts used in preprocessing the fMRI data, a
 
 ## How to access the data using datalad?
 
-The HCP data is in datalad format, and can be downloaded and installed using datalad. The tutorial on how to access the data using datalad can be found here.
+The HCP data is in datalad format, and can be downloaded and installed using datalad. The tutorial on how to access the data using datalad can be found [here](https://github.com/abtarun/HCP_datalad/blob/main/HCP_datalad_info.md).
 
