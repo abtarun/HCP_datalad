@@ -23,6 +23,7 @@ By now, you should be able to read in your terminal:
     ```console
     datalad install $username@stockage-horus.chuv.ch:/archive/PRTNR/CHUV/RADMED/phagmann/hcp/HCP_fMRI_datalad/rest1/derivatives/measures --recursive
     ```
+The `username` is the UNIL account.
 
 * Once the dataset is installed, you can get the data by typing:
     ```console
@@ -34,3 +35,6 @@ By now, you should be able to read in your terminal:
     ```console
         cd measures
         datalad unlock .
+
+
+* For more datalad questions, you can ask Jagruti Patel, or contact me on my personal email.
