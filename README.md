@@ -27,5 +27,8 @@ This repository also includes the scripts used in preprocessing the fMRI data, a
 
 ## How to access the data using datalad?
 
-The HCP data is in datalad format, and can be downloaded and installed using datalad. The tutorial on how to access the data using datalad can be found here.
+The HCP data is in datalad format, and can be downloaded and installed using datalad. The tutorial on how to access the data using datalad can be found [here](https://github.com/abtarun/HCP_datalad/blob/main/HCP_datalad_info.md).
 
+## If not using datalad
+
+If datalad can't be used, one can also opt to access the files using ssh. If you have access in the UNIL Vital-it and in the folder HCP folder, you can copy and paste the files using ssh. To modify the files, you have to make sure that the permissions are properly set.
